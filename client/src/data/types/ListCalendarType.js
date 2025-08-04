@@ -1,0 +1,21 @@
+import {
+    GraphQLObjectType as ObjectType,
+    GraphQLID as ID,
+    GraphQLString as StringType,
+    GraphQLInt as IntType,
+    GraphQLNonNull as NonNull,
+} from 'graphql';
+
+const ListCalendarType = new ObjectType({
+    name: 'ListCalendar',
+    fields: {
+        id: { type: new NonNull(IntType) },
+        listId: { type: new NonNull(IntType) },
+        name: { type: StringType },
+        url: { type: StringType },
+        status: { type: StringType },
+        errorMessage: { type: StringType }
+    },
+});
+
+export default ListCalendarType;

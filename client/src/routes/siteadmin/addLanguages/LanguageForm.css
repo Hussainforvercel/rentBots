@@ -1,0 +1,19 @@
+@import '../../../components/commonStyle.css';
+
+.formMaxWidth {
+    max-width: 100%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.space3 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .formMaxWidth {
+        margin-bottom: 20px;
+    }
+} 

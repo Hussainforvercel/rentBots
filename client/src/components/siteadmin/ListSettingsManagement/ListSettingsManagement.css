@@ -1,0 +1,50 @@
+@import '../admin-common.css';
+
+.gap {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.importMakeGap {
+    gap: 20px;
+}
+
+.tooltipIconGap {
+    gap: 6px;
+}
+
+.tooltipIcon {
+	position: relative;
+}
+
+.toolTipText {
+    display: none;
+    position: absolute;
+	top: 30px;
+	right: auto;
+	left: auto;
+	display: none;
+	background: var(--common-background-color);
+	min-width: 200px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 6px;
+	color: var(--white-text);
+    z-index: 6;
+    transition: width 2s;
+}
+
+.tooltipIcon:hover .toolTipText {
+	display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .exportSmapleSheetMobileView  {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .importMakeGap {
+        gap: 10px;
+    }
+}

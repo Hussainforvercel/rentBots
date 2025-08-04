@@ -1,0 +1,98 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../../helpers.css';
+
+.sectionBorder {
+    border: 1px solid var(--border-secondary-color);
+    border-radius: 6px;
+    margin-bottom: 25px;
+    padding: 15px;
+   
+}
+.removeIcon:hover {
+    cursor: pointer;
+}
+.removeIcon{
+    width: 26px;
+}
+.whyFromGrid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 22px;
+}
+.addLink, .addLink:hover, .addLink:focus, .addLink:active, .addLink:active:hover{
+    background-color: transparent !important;
+    color: var(--common-text-linkcolor) !important;
+    padding: 0;
+    box-shadow: unset;
+    border: unset;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--common-text-linkcolor) !important;
+    margin-left: 12px;
+    }
+    .specialPriceIcon {
+        position: relative;
+        display: inline-block;
+        width: 14px;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+    
+    .toolTip {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        left: -11px;
+        display: none;
+        background: var(--background-color);
+        min-width: 280px;
+        text-align: center;
+        padding: 8px;
+        border-radius: 4px;
+        color: var(--common-text-color);
+        border: 1px solid var(--border-color);
+        font-size: 14px;
+        z-index: 2;
+    }
+    
+    .specialPriceIcon:hover .toolTip {
+        display: block;
+    }
+    
+    .toolTipRelativeSection::after {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 12px;
+        right: 0;
+        top: -6px;
+        text-align: center;
+        background-color: var(--background-color);
+        z-index: 0;
+        max-width: 10px;
+        max-height: 10px;
+        -webkit-transform: rotate(136deg);
+        -ms-transform: rotate(136deg);
+        transform: rotate(136deg);
+        border: 1px solid var(--border-color);
+        border-top-width: 0;
+        border-right-width: 0;
+    }
+    .dFlex{
+        display: flex;
+        align-items: baseline;
+    }
+@media screen and (max-width: 1199px) {
+    .whyFromGrid {
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+.toolTip {
+    min-width: 165px;
+}
+.toolTipRelativeSection::after {
+    display: none;
+}
+}

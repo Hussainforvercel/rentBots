@@ -1,0 +1,31 @@
+@import '../../../components/commonStyle.css';
+
+.listContainer {
+    padding: 15px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.actionButton {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .listContainer {
+        margin-top: 20px;
+    }
+    
+    .table {
+        font-size: 14px;
+    }
+} 

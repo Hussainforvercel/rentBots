@@ -1,0 +1,7 @@
+@import '../../components/common.css';
+
+.errorMessage {
+	color: var(--error-text-color);
+	display: block;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,138 @@
+@import '../admin-common.css';
+
+.pagecontentWrapper {
+  padding: 20px;
+}
+
+.filterSection {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #e9ecef;
+}
+
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: end;
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.filterItem label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+.filterItem select,
+.filterItem input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.filterItem select:focus,
+.filterItem input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.methodBadge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.credit_card {
+  background-color: #28a745;
+}
+
+.zelle {
+  background-color: #007bff;
+}
+
+.p2c {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.debit {
+  background-color: #6f42c1;
+}
+
+.c2p {
+  background-color: #fd7e14;
+}
+
+.transferred {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.pending {
+  color: #ff6b35;
+  font-weight: 600;
+}
+
+.errorContainer {
+  text-align: center;
+  padding: 40px;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  color: #721c24;
+}
+
+.errorContainer h3 {
+  margin-bottom: 10px;
+}
+
+.completeButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.completeButton:hover {
+  background-color: #0056b3;
+}
+
+.completeButton:active {
+  background-color: #004085;
+}
+
+.completedText {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .filterRow {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .filterItem {
+    min-width: 100%;
+  }
+} 

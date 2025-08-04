@@ -1,0 +1,20 @@
+ .iconContainer {
+     position: absolute;
+     right: 12px;
+     top: 12px;
+     z-index: 2;
+     cursor: pointer;
+ }
+
+ .displayFlex {
+     display: flex;
+     align-items: center;
+ }
+
+ .marginRight {
+     margin-right: 30px;
+ }
+
+ .minWidth {
+     min-width: 91px;
+ }

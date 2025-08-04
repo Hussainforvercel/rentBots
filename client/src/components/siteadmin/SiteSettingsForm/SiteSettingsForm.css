@@ -1,0 +1,6 @@
+@import '../admin-common.css';
+
+.siteSettingFormFlex {
+    display: flex;
+    flex-wrap: wrap;
+}

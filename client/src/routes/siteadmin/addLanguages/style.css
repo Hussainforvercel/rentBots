@@ -1,0 +1,84 @@
+@import '../../../components/variables.css';
+
+.root {
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+}
+
+.title {
+  color: var(--common-text-color);
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  margin-top: 30px;
+}
+
+.actionButton {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.actionButton:last-child {
+  margin-right: 0;
+}
+
+.errorMessage {
+  background-color: #fff2f0;
+  border: 1px solid #ffccc7;
+  color: #ff4d4f;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.loadingMessage {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Button styles */
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-info:active {
+  background-color: #117a8b;
+  border-color: #10707f;
+}
+
+/* Table styles */
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+/* Glyphicon spacing */
+.glyphicon {
+  margin-right: 5px;
+} 

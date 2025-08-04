@@ -1,0 +1,74 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalBody {
+  padding: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bannerContent {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContent {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  max-width: 80%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .bannerContent {
+    height: 300px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .button {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+} 

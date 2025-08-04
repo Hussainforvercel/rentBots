@@ -1,0 +1,49 @@
+@import '../../variables.css';
+.displayGrid {
+    display: grid;
+    justify-content: space-between;
+	grid-template-columns: 25% 25% 25% 22%;
+}
+
+.gridBoxSection {
+	background: var(--common-gray-bg-color);
+    border: 1px solid var(--search-input-border);
+    border-radius: 12px;
+    padding: 30px 19px 20px;
+    text-align: center;
+	margin-right: 25px;
+}
+
+.gridBoxSection:nth-child(4) {
+	margin-right: 0px;
+}
+
+.gridColumn {
+	display: grid;
+	grid-template-columns: 70% auto;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+}
+.textSection{
+	word-break: break-word;
+}
+.mobileMargin{
+	text-align: center;
+}
+@media screen and (max-width: 767px) {
+	.displayGrid {
+		grid-template-columns: 100%;
+	}
+
+	.gridBoxSection {
+		margin-right: 0px;
+	}
+
+	.mobileMargin {
+		margin-top: 18px;
+	}
+	.gridColumn {
+		grid-template-columns: 100%;
+	}
+}

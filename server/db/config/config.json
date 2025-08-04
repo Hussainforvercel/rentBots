@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "DESKTOP-SSF307R\\Microsoft",
+    "password": "",
+    "database": "rentall_cars_v_3_1_5",
+    "host": "DESKTOP-SSF307R\\CODESINCSERVER",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "test": {
+    "username": "DESKTOP-SSF307R\\Microsoft",
+    "password": "",
+    "database": "rentall_cars_v_3_1_5",
+    "host": "DESKTOP-SSF307R\\CODESINCSERVER",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "production": {
+    "username": "DESKTOP-SSF307R\\Microsoft",
+    "password": "",
+    "database": "rentall_cars_v_3_1_5",
+    "host": "DESKTOP-SSF307R\\CODESINCSERVER",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    }
+  }
+}

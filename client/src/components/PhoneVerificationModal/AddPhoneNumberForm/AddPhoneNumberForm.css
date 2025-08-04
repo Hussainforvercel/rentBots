@@ -1,0 +1,21 @@
+.phoneNumberField {
+    padding: 14px 19px;
+}
+
+.phoneNumberCheckBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.indicationTxt {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0;
+}
+
+.indicationTxt a,
+.indicationTxt a:hover,
+.indicationTxt a:focus {
+    color: var(--common-link-color);
+}

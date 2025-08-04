@@ -1,0 +1,6 @@
+mutation DocumentManagement ($userId: String, $isIdVerification: Int){
+    DocumentManagement(userId: $userId, isIdVerification: $isIdVerification){
+        status
+        errorMessage
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../variables.css';
+.bgImage {
+	width: 100%;
+	height: 100%;
+	background-color: var(--error-text-color);
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50%;
+}
+
+.displayBlock {
+	display: block;
+}
