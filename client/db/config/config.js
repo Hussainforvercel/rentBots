@@ -9,8 +9,8 @@ module.exports = {
     url: DATABASE_URL,
     dialect: 'mysql',
     username: 'root',
-    password: '',
-    database: 'boat',
+    password: 'RentBotIsThePass',
+    database: 'RentBot',
     host: '127.0.0.1',
     port: 3306
   }
