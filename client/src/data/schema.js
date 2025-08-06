@@ -242,7 +242,7 @@ import ManageListingTransaction from './queries/ManageListing/ManageListingTrans
 import getPopularLocationAdmin from './queries/siteadmin/getPopularLocationAdmin';
 
 // Day Drag Calendar
-import ListingDataUpdate from './mutations/Listing/ListingDataUpdate';
+// import ListingDataUpdate from './mutations/Listing/ListingDataUpdate';
 import UpdateBlockedDates from './mutations/Listing/UpdateBlockedDates';
 import removeBlockedDates from './mutations/Listing/removeBlockedDates';
 //import UpdateAvailableDates from './mutations/Listing/UpdateAvailableDates';
@@ -575,7 +575,7 @@ const schema = new Schema({
       removeLocation,
       addPopularLocation,
       updateListStatus,
-      ListingDataUpdate,
+      // ListingDataUpdate,
       UpdateBlockedDates,
       // UpdateAvailableDates
       deleteBlogDetails,

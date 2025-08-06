@@ -3,7 +3,7 @@ import {
     GET_BLOCKED_SUCCESS,
     GET_BLOCKED_ERROR
 } from '../../constants';
-import { UserListing as query, ListingDataUpdate as mutation } from '../../lib/graphql';
+// import { UserListing as query, ListingDataUpdate as mutation } from '../../lib/graphql';
 
 export const getListBlockedDates = (
     listId,
