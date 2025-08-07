@@ -262,6 +262,14 @@ const initializeModels = async () => {
     }
   }
 };
+
+
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  });
+
+
 app.put('/api/payout-megasoft-details/:userId', async (req, res) => {
   try {
     await initializeModels();
